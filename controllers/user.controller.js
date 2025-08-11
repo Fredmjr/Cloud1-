@@ -1,6 +1,7 @@
 import express from 'express'
 
+
 export const allUsers = async (req, res) => {
-res.send('all users hare')
+res.render('components/login')
 console.log('all users')
 }
