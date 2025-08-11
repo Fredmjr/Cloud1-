@@ -19,6 +19,7 @@ setTimeout(function () {
   welcomePage.style.display = 'none';
 }, 2000);
 
+
 //Drodown menu section
 menuBtn.addEventListener("click", () => {
   toggleMenu.style.display = 'block';
@@ -32,38 +33,123 @@ linkBtn.forEach(btn => {
 
 //Login section
 loginBtn.addEventListener("click", () => {
-  contentsSec.innerHTML = 'login page';
+  fetch('/app/login', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      // 'Authorization': 'Bearer YOUR_TOKEN',
+    }
+  })
+    .then(response => response.text())
+    .then(data => {
+      contentsSec.innerHTML = data;
+    })
+    .catch(error => console.error('Error:', error));
 })
 
 //notifications section
 notifications.addEventListener("click", () => {
-  contentsSec.innerHTML = 'notifications page';
+  fetch('/app/notifications', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      // 'Authorization': 'Bearer YOUR_TOKEN',
+    }
+  })
+    .then(response => response.text())
+    .then(data => {
+      contentsSec.innerHTML = data;
+    })
+    .catch(error => console.error('Error:', error));
+
+
 })
 
 
 //profileMenu section
 profileMenu.addEventListener("click", () => {
-  contentsSec.innerHTML = 'profileMenu page';
+  fetch('/app/login', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      // 'Authorization': 'Bearer YOUR_TOKEN',
+    }
+  })
+    .then(response => response.text())
+    .then(data => {
+      contentsSec.innerHTML = data;
+    })
+    .catch(error => console.error('Error:', error));
 })
 
 //cloud1AImodel section
 floatingMgs.addEventListener("click", () => {
-  contentsSec.innerHTML = 'cloud1AImodel page';
+  fetch('/app/cloud1AImodel', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      // 'Authorization': 'Bearer YOUR_TOKEN',
+    }
+  })
+    .then(response => response.text())
+    .then(data => {
+      contentsSec.innerHTML = data;
+    })
+    .catch(error => console.error('Error:', error));
 })
 
 //librarySec section
 librarySec.addEventListener("click", () => {
-  contentsSec.innerHTML = 'librarySec page';
+  fetch('/app/library', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      // 'Authorization': 'Bearer YOUR_TOKEN',
+    }
+  })
+    .then(response => response.text())
+    .then(data => {
+      contentsSec.innerHTML = data;
+    })
+    .catch(error => console.error('Error:', error));
+
 })
 
 //home section
 homeSec.addEventListener("click", () => {
-  contentsSec.innerHTML = 'homeSec page';
+  homeFuc();
 })
+
+function homeFuc() {
+  fetch('/app/home', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      // 'Authorization': 'Bearer YOUR_TOKEN',
+    }
+  })
+    .then(response => response.text())
+    .then(data => {
+      contentsSec.innerHTML = data;
+    })
+    .catch(error => console.error('Error:', error));
+}
+homeFuc();
 
 //search section
 searchSec.addEventListener("click", () => {
-  contentsSec.innerHTML = 'search page';
+  fetch('/app/search', {
+    method: 'GET',
+    headers: {
+      'Content-Type': 'application/json',
+      // 'Authorization': 'Bearer YOUR_TOKEN',
+    }
+  })
+    .then(response => response.text())
+    .then(data => {
+      contentsSec.innerHTML = data;
+    })
+    .catch(error => console.error('Error:', error));
 })
 
 //cloud1L logo icon section

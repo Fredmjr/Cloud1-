@@ -18,3 +18,7 @@ res.render('components/library')
 export const cloud1AImodelUrl = async (req, res)=>{
 res.render('components/cloud1AImodel')
 }
+
+export const searchUrl = async (req, res)=>{
+res.render('components/search')
+}
