@@ -11,6 +11,8 @@ const librarySec = document.querySelector('.librarySec')
 const homeSec = document.querySelector('.homeSec')
 const searchSec = document.querySelector('.searchSec')
 const cloud1L = document.querySelector('.cloud1L')
+const loginPage = document.querySelector('.loginPage')
+const signupPage = document.querySelector('.signupPage')
 
 
 
@@ -157,3 +159,12 @@ cloud1L.addEventListener("click", () => {
   window.location.reload()
   //should take user home, not reloading, bro fix this in the future!!
 })
+
+
+//signup section
+function signupFuc() {
+  signupPage.style.display = 'block'
+  loginPage.style.display = 'none'
+
+  
+}
