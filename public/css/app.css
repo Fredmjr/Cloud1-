@@ -22,7 +22,7 @@ body {
   color: #ffffff;
   margin: 0px;
   font-family: reddir-light;
-  font-size: 12px;
+  font-size: 25px;
 }
 
 .welcomePage {
@@ -59,7 +59,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 70px;
+  padding: 15px 70px;
   z-index: 10;
   position: fixed;
   top: 0px;
