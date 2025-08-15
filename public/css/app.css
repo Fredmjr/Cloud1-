@@ -197,3 +197,21 @@ body {
   justify-content: center;
   padding: 5px 0px;
 }
+
+#profilePrev{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: start;
+  margin: 10px 15px;
+  background-color:#272626 ;
+  padding: 7px 30px;
+  border-radius: 20px;
+}
+.usrPrlEmail{
+  font-size: 25px;
+  color: grey;
+}
+.usrPrlusername{
+  margin-bottom:-18px;
+}
