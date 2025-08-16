@@ -22,7 +22,7 @@ body {
   color: #ffffff;
   margin: 0px;
   font-family: reddir-light;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .welcomePage {
@@ -59,7 +59,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
+  padding: 13px 30px;
   z-index: 10;
   position: fixed;
   top: 0px;
@@ -123,7 +123,7 @@ body {
 
 .leftsider {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   display: flex;
   align-items: center;
 }
@@ -134,24 +134,24 @@ body {
   border-radius: 40px;
   outline: none;
   border: none;
-  padding: 10px 15px;
+  padding: 7px 15px;
   font-family: reddir-regular;
 }
 
 .profileMenu {
-  padding: 7px;
+  padding: 5px;
   border: 2px solid #e93d00;
   border-radius: 50%;
   display: flex;
 }
 
 .contents {
-  padding: 80px 30px;
-  margin-bottom: 100px;
+  padding: 40px 30px;
+  margin-bottom: 50px;
 }
 
 .contentsSec {
-  padding: 50px 0px;
+  padding: 30px 0px;
 }
 
 /*floating Message cloud1 AI model*/
@@ -162,7 +162,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
   position: fixed;
   bottom:100px;
   right: 30px;
@@ -176,10 +176,12 @@ body {
 
 /*footer section*/
 .footer {
+  font-size: 11px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 15px 30px;
+  padding: 13px 30px;
+  gap: 30px;
   position: fixed;
   bottom: 0px;
   left: 0;
