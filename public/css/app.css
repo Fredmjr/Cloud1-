@@ -22,7 +22,7 @@ body {
   color: #ffffff;
   margin: 0px;
   font-family: reddir-light;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 .welcomePage {
@@ -140,7 +140,7 @@ body {
 
 .profileMenu {
   padding: 5px;
-  border: 2px solid #e93d00;
+  border: 1px solid #e93d00;
   border-radius: 50%;
   display: flex;
 }
@@ -162,12 +162,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 12px;
   position: fixed;
-  bottom:100px;
+  bottom: 90px;
   right: 30px;
   background-color: transparent;
-  border: 2px solid #e93d00;
+  border: 1px solid #e93d00;
   border-radius: 50%;
   background-color:#272626 ;
 }
@@ -176,12 +176,12 @@ body {
 
 /*footer section*/
 .footer {
-  font-size: 11px;
+  font-size: 9px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 13px 30px;
-  gap: 30px;
+  gap: 25%;
   position: fixed;
   bottom: 0px;
   left: 0;
