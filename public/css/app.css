@@ -71,7 +71,7 @@ body {
 
 .rightsider {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   display: flex;
   align-items: center
 }
@@ -123,7 +123,7 @@ body {
 
 .leftsider {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   display: flex;
   align-items: center;
 }
@@ -134,20 +134,19 @@ body {
   border-radius: 40px;
   outline: none;
   border: none;
-  padding: 15px 20px;
-  font-size: 18px;
+  padding: 10px 15px;
   font-family: reddir-regular;
 }
 
 .profileMenu {
-  padding: 15px;
+  padding: 7px;
   border: 2px solid #e93d00;
   border-radius: 50%;
   display: flex;
 }
 
 .contents {
-  padding: 150px 30px;
+  padding: 80px 30px;
   margin-bottom: 100px;
 }
 
@@ -165,8 +164,8 @@ body {
   align-items: center;
   padding: 15px;
   position: fixed;
-  bottom: 250px;
-  right: 70px;
+  bottom:100px;
+  right: 30px;
   background-color: transparent;
   border: 2px solid #e93d00;
   border-radius: 50%;
