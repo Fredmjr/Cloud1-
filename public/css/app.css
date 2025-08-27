@@ -82,7 +82,7 @@ body {
   padding: 7px 15px;
   font-size: 11px;
   position: fixed;
-  top: 120px;
+  top: 60px;
   left: 0px;
   background-color: #15191b;
   border-bottom: 2px solid #e93d00;
@@ -134,7 +134,7 @@ body {
   border-radius: 40px;
   outline: none;
   border: none;
-  padding: 4px 12px;
+  padding: 6px 12px;
   font-family: reddir-regular;
 }
 
@@ -205,13 +205,13 @@ body {
   gap: 10px;
   align-items: center;
   justify-content: start;
-  margin: 10px 15px;
+  margin: 3px;
   background-color:#272626 ;
   padding: 7px 30px;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 .usrPrlEmail{
-  font-size: 14px;
+  font-size: 9px
   color: grey;
 }
 .usrPrlusername{
