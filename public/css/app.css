@@ -165,6 +165,33 @@ align-items: center;
   padding: 30px 0px;
 }
 
+
+
+/*LOGIN PAGE*//
+.loginConts{
+  color: white;
+}
+
+.signupBtn {
+   color: #ffffff;
+   background-color: #e93d00;
+   border-radius: 40px;
+   outline: none;
+   border: none;
+   padding: 6px 30px;
+   font-family: reddir-regular;
+  150 }
+::placeholder{
+  color: grey;
+}
+input{
+  color: white;
+}
+
+
+
+
+
 /*floating Message cloud1 AI model*/
 .floatingMgs {
   overflow: hidden;
